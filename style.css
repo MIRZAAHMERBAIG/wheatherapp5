@@ -1,0 +1,59 @@
+body{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-image: url("imageswheather/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+/* background-attachment:fixed ; */
+}
+/* heading worked start */
+.heading{
+    font-family: 'Bitter', serif;
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+    width: 500px;
+    margin-top: 15%;
+    margin-left: 40px;
+    padding: 13px;
+    
+}
+/* heading worked finished */
+/* search bar worked start */
+.search_bar{
+    border: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    color: #cac7ff;
+
+
+
+
+}
+.search_bar_form{
+    background-color: white;
+    max-width: 430px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+   
+
+}
+.search_bar_div{
+    padding-left: 53px;
+    margin-top: 20px;
+}
+.searchbutton{
+    background-color: transparent;
+    border: 0;
+}
+
+
+/* search bar worked finished */
